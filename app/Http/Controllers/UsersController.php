@@ -17,7 +17,6 @@ class UsersController extends Controller
 
     public function edit(User $user)
     {
-        dump(Auth::email());
         return view('users.edit', compact('user'));
     }
 
